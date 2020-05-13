@@ -14,7 +14,7 @@ How it works
 - **Two files**
     - [edit.sh](edit.sh) makes/edits a script for your current directory
     - [run.sh](run.sh) runs it
-- Stores your scripts in a directory structure that mirrors your actual directory structure
+- Stores your scripts in a separate directory structure that mirrors your actual directory structure
     - So, if you run **edit.sh** in `/Users/Sean/Desktop`, it'll make a script in `/.../runner/system/Users/Sean/Desktop`
 
 Recommended aliases
