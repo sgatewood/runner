@@ -24,3 +24,8 @@ These are the ones I use:
 alias er="/.../runner/edit.sh"
 alias r="/.../runner/run.sh"
 ```
+
+Potential FAQ
+----
+- What about symlinks?
+    - Uses `pwd -P`, so it should work

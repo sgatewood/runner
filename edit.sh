@@ -1,6 +1,7 @@
 #!/bin/bash
+cwd=$(pwd -P)
 basedir="$(dirname "${BASH_SOURCE[0]}")"
-target_folder="${basedir}/system${PWD}"
+target_folder="${basedir}/system${cwd}"
 target_file="${target_folder}/run.sh"
 
 mkdir -p $target_folder
